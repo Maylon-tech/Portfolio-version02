@@ -1,23 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-}
+@import 'basic-config';
+@import 'about';
 
-:root {
-    --bg-color: #020312;
-    --text-coor: #fff;
-    --main-color: #eb4a4a;
-    --second-color: gray;
-    --other-color: #12141c;
-    --h1-font: 5.2rem;
-    --h2-font:3.5rem;
-    --p-font: 1.1rem;
-}
 
 body {
   background-color: var(--bg-color);
@@ -45,9 +28,19 @@ header {
   border-bottom: 1px solid transparent;
   transition: all .40 ease;
 }
+
+header.shadow {
+  padding: 15px 16%;
+  background: var(--bg-color);
+  border-bottom: 1px solid #0e1630;
+}
+
 .logo img {
-  width: 135px;
+  width: 40px;
   height: auto;
+  border-radius: 50%;
+  border: 1px solid var(--main-color);
+  padding: 5px;
 }
 
 .navbar {
@@ -82,8 +75,8 @@ header {
   width: 100%;
   position: relative;
   background: url(../asset/maylon_at_dunas-removebg-preview.png);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: right;
   display: flex;
   align-items: center;
   justify-content: flex-start;
