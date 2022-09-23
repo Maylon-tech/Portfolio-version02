@@ -35,8 +35,8 @@
     font-weight: 600;
 }
 .about-img {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     border: 2px solid var(--main-color);
 
@@ -45,7 +45,7 @@
     height: 100%;
     width: 100%;
     max-width: 460px;
-    filter: contrast(1.8);
+    filter: contrast(1.4);
     border-radius: 50%;
     object-fit: contain;
 }

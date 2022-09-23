@@ -17,18 +17,19 @@
 
 .services-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(270px, auto));
     align-items: center;
     text-align: center;
     gap: 2rem;
     margin-top: 5rem;
 }
 .box {
-    padding: 45px;
+    padding: 35px;
     background: #12141c;
     border-top: 5px solid transparent;
     transition: all .40s ease;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .box h3 {
@@ -40,7 +41,7 @@
 .box p {
     color: var(--second-color);
     font-size: var(--p-font);
-    line-height: 30px;
+    line-height: 25px;
 }
 .box:hover {
     border-top: 5px solid var(--main-color);
