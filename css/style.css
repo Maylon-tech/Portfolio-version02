@@ -5,6 +5,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-coor);
+  position: relative;
 }
 
 /* Section Padrao */
@@ -31,7 +32,7 @@ header {
 
 header.shadow {
   padding: 15px 16%;
-  background: var(--bg-color);
+  background: #020312c9;
   border-bottom: 1px solid #0e1630;
 }
 
@@ -39,7 +40,9 @@ header.shadow {
   width: 40px;
   height: auto;
   border-radius: 50%;
-  border: 1px solid var(--main-color);
+  border: 2px solid var(--main-color);
+  background: var(--text-coor);
+  color: var(--text-coor);
   padding: 5px;
 }
 
